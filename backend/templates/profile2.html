@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title> Profile Page</title>
+        <meta charset="utf-8">
+     <!--   <link rel="stylesheet" href="static/css/style.css">  -->
+        
+    </head>
+
+    <body>
+        <h1>Hello {{username}}</h1><br>
+        Your photo :<br>
+        <img src="static/picture/default_user.jfif" alt="Profil Picture"><br>
+        Your Information :<br>
+        <textarea name="data" rows="5">Your username is {{username}} and your password is {{password}}</textarea><br>
+        <form action="/postpage" method="post">
+            <button type="submit">Post Message</button>
+        </form>
+    </body>
+</html>
+
