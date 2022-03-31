@@ -4,20 +4,28 @@
     <head>
         <title> Home</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="/static/css/stylelog.css">
         
     </head>
 
     <body>
-        <h1>Log In !!</h1>
+        <nav>
+            <label class="logo">Log In</label> 
+        </nav>
         <form action="/authenticate" method="POST">
-            <p><label for="name">Username:</label>
-            <input type="text" id="username" name="username">
-            </p>
-            <p>
-            <label for="name">Password:</label>
-            <input type="password" id="password" name="password">
-            </p><br>
-            <input type="submit" value="Log In">
-            </form>
+            <div class="register">
+                <div class="entry">
+                    <label for="name">Username:</label>
+                    <input type="text" id="username" name="username">
+                </div>
+                <div class="entry">
+                    <label for="name">Password:</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <div class="entry">
+                    <input type="submit" value="Log In">
+                </div>
+            </div>
+        </form>
     </body>
 </html>

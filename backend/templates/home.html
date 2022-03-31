@@ -2,20 +2,31 @@
 <html>
 
     <head>
-        <title> Home</title>
+        <title> Home </title>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="static/css/style.css">  
     </head>
 
     <body>
-        <h1>Home</h1>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/authenticate">Log in</a></li>
-            <li><a href="/story">Story page</a></li>
-            <li class="right-allign"><a href="/signup">Sign up</a></li>
-            
-        </ul>
+        <nav>
+            <input type="checkbox" id="check" >
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">Blog</label> 
+            <ul>
+                <li><a class="active" href="/">Home</a></li>
+                <li><a href="/authenticate">Log in</a></li>
+                <li><a href="/story">Story page</a></li>
+                <li class="right-allign"><a href="/signup">Sign up</a></li>
+                
+            </ul>
+        </nav>
+    
+        
+        
         
     </body>
 </html>

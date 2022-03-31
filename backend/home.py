@@ -52,9 +52,10 @@ def story():
         return render_template('story.html',posts=posts)
 
 
-@app.route('/profile2')
+@app.route('/profile2',methods=['POST'])
 def profile():
-    return render_template("profile2.html")
+    if request.method == 'POST':
+        return render_template("profile2.html")
 
 @app.route('/postpage', methods=['POST'])
 def postblog():

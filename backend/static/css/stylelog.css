@@ -1,0 +1,76 @@
+*{
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ededed;
+    
+}
+
+nav{
+    text-align: center;
+    background: #2c3e50;
+    height: 100px;
+    width: 100%;
+    margin: 0px 0px 100px 0px;
+}
+
+label.logo{
+    
+    color: white;
+    font-size: 35px;
+    line-height: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.entry{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 15px;
+    
+    
+}
+
+.register{
+    
+    border: 5px solid #2c3e50;
+    background-color: #616972;
+    border-radius: 3px;
+    position: relative;
+    left: 25%;
+    width:50%;
+    height: 300px;
+    padding: 75px 0 75px 0;
+
+}
+
+nav img{
+    float: right;
+    width: 80px;
+    height: 80px;
+    margin: 10px 10px 10px 10px;
+}
+
+textarea{
+    text-align: center;
+    resize: none;
+    border: none;
+    background-color: #616972;
+}
+
+.messagearea{
+    text-align: center;
+    
+}
+
+.message{
+    border: 2px solid #616972;
+    margin: 10px;
+    padding: 10px;
+}

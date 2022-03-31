@@ -4,16 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/stylelog.css">
     <title>Post Message</title>
 </head>
 <body>
-    <h1>You are on the posting message page.</h1>
-    <form action="/postmessage" method="post">
-        <label for="datetime">Date</label><br>
-        <input type="datetime-local" name="datetime" ><br><br>
-        <label for="message">Write your message here</label><br>
-        <textarea name="message" rows="5"></textarea><br>
-        <button type="submit">Post </button>
-    </form>
+    <nav>
+        <label class="logo">Posting page</label> 
+    </nav>
+        <form action="/postmessage" method="post">
+            <div class="register">
+                <div class="entry">
+                    <label for="datetime">Date</label><br>
+                    <input type="datetime-local" name="datetime" >
+                </div>
+                <div class="entry">
+                    <textarea name="message" rows="5">Write your message here</textarea><br>
+                </div>
+                <div class="entry">
+                    <button type="submit">Post </button>
+                </div>
+            </div>
+        </form>
 </body>
 </html>

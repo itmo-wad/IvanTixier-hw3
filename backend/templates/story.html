@@ -4,18 +4,22 @@
     <head>
         <title> Home</title>
         <meta charset="utf-8">
-        
+        <link rel="stylesheet" href="/static/css/stylelog.css">
     </head>
 
     <body>
-        <h1>All posts</h1>
+        <nav>
+            <label class="logo">All posts</label> 
+        </nav>
         <hr>
+        <div class="messagearea">
         {% for post in posts %}
             <div class="message">
                 <p>{{ post.message }}</p>
-                <p>{{ post.datetime }}</p>
+                <p>{{ post.datetime }}</p><br><br>
             </div>
         {% endfor %}  
+        </div>
         <hr>
 
     </body>
